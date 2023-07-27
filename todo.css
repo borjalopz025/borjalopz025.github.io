@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid black;
+    background-color: black;
+
+}
+.ove:hover{
+    color: blueviolet;
+}
+.ove:active{
+    background-color: blue;
+    color: beige;
+}
+
+.buton:disabled{
+    background-color: rgb(28, 100, 253);
+}
+
+/* landing.html */
+
+.txt{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ margin-right: 15%;
+
+}
+
+.foto{
+    padding-bottom: 20%;
+    width: 350px;
+    height:350px;
+}
+.foto:hover{
+    transform: rotate(360deg);
+    transition: transform 1s linear;
+}
+.titu{
+    font-size: 34px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 255, 6);
+}
+
+/* descripcion.html */
+
+.grancajon{
+    background-image: linear-gradient(
+      rgba(25, 209, 231, 0.5),
+      rgba(243, 17, 224, 0.5)
+    ),
+    url(assets/ordenata.jpg); 
+    height: 55rem; 
+    width:100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cajo2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+.ttex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+} 
+
+.parra{
+    color: beige;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 60%;
+    margin-left: 5%;
+    padding-top: 3%;
+    
+}
+.tit{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(85, 255, 6);
+
+}
+
+/* proyecto.html */
+
+.habitacion{
+    width: 100%;
+    height: 55rem;
+    background-image: url(assets/nubes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.habitacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.horno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.enunciado{
+    color:black;
+    text-align: center;
+    font-size: 24px;
+    }
+.f{
+    width: 400px;
+    height: 200px;
+    
+}
+.f:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+
+/* formulario.html */
+
+.cuerpaso{
+    width: 100%;
+    height: 40rem;
+    background-image: url(assets/fondo7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-right: 70%;
+    border: 3px solid black;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    padding-right: 1%;
+    padding-left: 1%;
+    color:beige;
+    
+}
+.buton{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 18%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+label{
+    padding-top: 10%;
+ 
+}
+.clap{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%
+}
+ 
+/* tecnologias.html */
+
+.tec{
+    width: 100%;
+    height: 45rem;
+    background-image: url(assets/tec.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.ima{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.rowe{
+    color: beige;
+    padding-top: 7%;
+    margin-left: 10%;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.js{
+    width: 75px;
+    height: 75px;
+    padding-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.js:hover{
+    transform: scale(1.3);
+    transition: transform 1s linear;
+    
+}
